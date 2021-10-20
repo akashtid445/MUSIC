@@ -9,9 +9,9 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_photo("https://telegra.ph/file/bfc82f0de5ea1d35830f5.jpg")
     await message.reply_text(
-        f"""**Hey, I'm LOVELY MUSIC BOT🎵
+        f"""**Hey, I'm PRINSECC MUSIC BOT🎵
 
-I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Powered by [#ℓσvєℓyทєτωσrк](https://t.me/LOVELY_NETWORK)
+I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Powered by [PRINSECC-NETWORK](https://t.me/PRINCESS_NETWORK)
 
 Add me to your group and play music freely❣️!**
         """,
@@ -19,17 +19,17 @@ Add me to your group and play music freely❣️!**
             [
                 [
                     InlineKeyboardButton(
-                        "📠 Source Code 📠", url="https://github.com/TEAM-LOVELY/MUSIC")
+                        "📢𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔", url="https://t.me/PRINCESS_NETWORK")
                   ],[
                     InlineKeyboardButton(
-                        "⚜ SUPPORT GROUP ⚜", url="https://t.me/LOVELY_5UPPORT"
+                        "⚜ SUPPORT GROUP ⚜", url="https://t.me/BESTU_1"
                     ),
                     InlineKeyboardButton(
-                        "🔷️ UPDATE CHANNEL 🔷️", url="https://t.me/LOVELY_NETWORK"
+                        "🔷️ UPDATE CHANNEL 🔷️", url="https://t.me/PRIN_CESS"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "ADD TO GROUP 🥺", url="https://t.me/LOVELYR_OBOT?startgroup=true"
+                        "ADD TO GROUP 🥺", url="https://t.me/PRINSECC_VC_ROBOT?startgroup=true"
                     )]
             ]
         ),
@@ -38,12 +38,12 @@ Add me to your group and play music freely❣️!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**#ℓσvєℓyทєτωσrк**""",
+      await message.reply_text("""**PRINSECC-NETWORK**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔷️ UPDATE CHANNEL 🔷️", url="https://t.me/LOVELY_NETWORK")
+                        "SUPPORT ♻️", url="https://t.me/PRINCESS_NETWORK")
                 ]
             ]
         )
