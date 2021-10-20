@@ -494,7 +494,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton('YouTube 🎥', url=f'{url}'),
                     InlineKeyboardButton('Close 🗑', callback_data='cls')
                 ],[
-                    InlineKeyboardButton("📣 Channel", url=f"https://t.me/ABOUTVEDMAT")  
+                    InlineKeyboardButton("📣 Channel", url=f"https://t.me/PRIN_SECC")  
                 ]                             
             ]
         )
@@ -512,7 +512,7 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
         photo="final.png", 
-        caption=f"#⃣ Your requested song **queued** at position {position}! JOIN @LOVELY_NETWORK",
+        caption=f"#⃣ Your requested song **queued** at position {position}! JOIN @PRINSECC_NETWORK",
         reply_markup=keyboard,
         )
         os.remove("final.png")
@@ -534,7 +534,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** Here The Song Requested By {} JOIN @LOVELY_NETWORK".format(
+        caption="▶️ **Playing** Here The Song Requested By {} JOIN @PRINSECC_NETWORK".format(
         message.from_user.mention()
         ),
     )
